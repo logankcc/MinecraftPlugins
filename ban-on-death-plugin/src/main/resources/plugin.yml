@@ -1,0 +1,4 @@
+name: BanOnDeathPlugin
+version: 1.0.0
+main: com.logan.BanOnDeathPlugin
+api-version: 1.20.6

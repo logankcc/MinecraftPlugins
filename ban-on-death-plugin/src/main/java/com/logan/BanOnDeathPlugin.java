@@ -8,7 +8,7 @@ import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.profile.PlayerProfile;
 
-public class BanOnDeath extends JavaPlugin implements Listener {
+public class BanOnDeathPlugin extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {

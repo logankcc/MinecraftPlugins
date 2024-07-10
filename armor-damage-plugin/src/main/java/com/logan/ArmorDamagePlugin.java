@@ -19,7 +19,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-public class ArmorDamage extends JavaPlugin implements Listener {
+public class ArmorDamagePlugin extends JavaPlugin implements Listener {
 
     private final Map<UUID, BukkitRunnable> playerTasks = new HashMap<>();
 
@@ -40,7 +40,7 @@ public class ArmorDamage extends JavaPlugin implements Listener {
     public void onInventoryClick(InventoryClickEvent event) {
         if (event.getWhoClicked() instanceof Player) {
             Player player = (Player) event.getWhoClicked();
-            Bukkit.getScheduler().runTaskLater(this, () -> handleArmorCheck(player), 20L);
+            Bukkit.getScheduler().runTaskLater(this, () -> handleArmorCheck(player), 10L);
         }
     }
 
@@ -48,7 +48,7 @@ public class ArmorDamage extends JavaPlugin implements Listener {
     public void onInventoryDrag(InventoryDragEvent event) {
         if (event.getWhoClicked() instanceof Player) {
             Player player = (Player) event.getWhoClicked();
-            Bukkit.getScheduler().runTaskLater(this, () -> handleArmorCheck(player), 20L);
+            Bukkit.getScheduler().runTaskLater(this, () -> handleArmorCheck(player), 10L);
         }
     }
 
@@ -57,7 +57,7 @@ public class ArmorDamage extends JavaPlugin implements Listener {
         Player player = event.getPlayer();
         if (event.getAction().equals(Action.RIGHT_CLICK_BLOCK) || event.getAction().equals(Action.RIGHT_CLICK_AIR)) {
             if (isArmor(player.getInventory().getItemInMainHand())) {
-                Bukkit.getScheduler().runTaskLater(this, () -> handleArmorCheck(player), 20L);
+                Bukkit.getScheduler().runTaskLater(this, () -> handleArmorCheck(player), 10L);
             }
         }
     }
@@ -66,14 +66,14 @@ public class ArmorDamage extends JavaPlugin implements Listener {
     public void onBlockDispenseArmor(BlockDispenseArmorEvent event) {
         if (event.getTargetEntity() instanceof Player) {
             Player player = (Player) event.getTargetEntity();
-            Bukkit.getScheduler().runTaskLater(this, () -> handleArmorCheck(player), 20L);
+            Bukkit.getScheduler().runTaskLater(this, () -> handleArmorCheck(player), 10L);
         }
     }
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
-        Bukkit.getScheduler().runTaskLater(this, () -> handleArmorCheck(player), 20L);
+        Bukkit.getScheduler().runTaskLater(this, () -> handleArmorCheck(player), 10L);
     }
 
     @EventHandler
@@ -121,7 +121,7 @@ public class ArmorDamage extends JavaPlugin implements Listener {
                 }
             }
         };
-        task.runTaskTimer(this, 0L, 20L);
+        task.runTaskTimer(this, 0L, 10L);
         playerTasks.put(player.getUniqueId(), task);
     }
 

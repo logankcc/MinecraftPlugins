@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.logan.AppTest" time="0.015" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/logancopeland/MinecraftPlugins/armor-damage-plugin/target/test-classes:/Users/logancopeland/MinecraftPlugins/armor-damage-plugin/target/classes:/Users/logancopeland/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/logancopeland/.m2/repository/org/spigotmc/spigot-api/1.20.6-R0.1-SNAPSHOT/spigot-api-1.20.6-R0.1-SNAPSHOT.jar:/Users/logancopeland/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/logancopeland/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/logancopeland/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/logancopeland/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/logancopeland/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/logancopeland/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/logancopeland/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/logancopeland/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/logancopeland/.m2/repository/org/joml/joml/1.10.5/joml-1.10.5.jar:/Users/logancopeland/.m2/repository/net/md-5/bungeecord-chat/1.20-R0.2/bungeecord-chat-1.20-R0.2.jar:/Users/logancopeland/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/logancopeland/MinecraftPlugins/armor-damage-plugin/target/surefire/surefirebooter-20240710131213917_3.jar /Users/logancopeland/MinecraftPlugins/armor-damage-plugin/target/surefire 2024-07-10T13-12-13_827-jvmRun1 surefire-20240710131213917_1tmp surefire_0-20240710131213917_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/logancopeland/MinecraftPlugins/armor-damage-plugin/target/test-classes:/Users/logancopeland/MinecraftPlugins/armor-damage-plugin/target/classes:/Users/logancopeland/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/logancopeland/.m2/repository/org/spigotmc/spigot-api/1.20.6-R0.1-SNAPSHOT/spigot-api-1.20.6-R0.1-SNAPSHOT.jar:/Users/logancopeland/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/logancopeland/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/logancopeland/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/logancopeland/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/logancopeland/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/logancopeland/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/logancopeland/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/logancopeland/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/logancopeland/.m2/repository/org/joml/joml/1.10.5/joml-1.10.5.jar:/Users/logancopeland/.m2/repository/net/md-5/bungeecord-chat/1.20-R0.2/bungeecord-chat-1.20-R0.2.jar:/Users/logancopeland/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/logancopeland"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/logancopeland/MinecraftPlugins/armor-damage-plugin"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/logancopeland/MinecraftPlugins/armor-damage-plugin/target/surefire/surefirebooter-20240710131213917_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="logancopeland"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/logancopeland/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/2d/m5vjplnx2cjc07xhklyb9g140000gn/T/"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="/Users/logancopeland/MinecraftPlugins/armor-damage-plugin"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/logancopeland/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.logan.AppTest" time="0.003"/>
+</testsuite>
